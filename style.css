@@ -1,0 +1,32 @@
+body {
+  font-family: "KoHo", sans-serif;
+}
+
+section h1 {
+  background-color: hsl(160, 55%, 63%);
+}
+
+h1 {
+  background-color: rgb(200, 255, 243);
+}
+
+/*
+.summary-title {
+  background-color: rgb(49, 97, 99);
+}
+*/
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  transition: ease .5s all;
+  padding: 15px;
+}
+
+header h1:hover {
+  background-color: hsl(160, 55%, 63%);
+  color: white;
+  letter-spacing: 2px;
+}
